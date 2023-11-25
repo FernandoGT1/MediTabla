@@ -11,7 +11,7 @@ const LogIn = ({ onLogin }) => {
 
   const handleSubmit = async (event) => {
     event.preventDefault();
-
+///////////////////////////
     try {
       // Tu lógica de autenticación existente
       const response = await fetch('http://localhost:8082/obtenerUsuarios', {
