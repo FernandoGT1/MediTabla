@@ -60,6 +60,9 @@ app.post('/registrarReceta',(request, response)=>{
     })
 })
 
+
+////
+
 app.get('/obtenerRecetas',(request,response)=>{
     const sql = `CALL ObtenerMedicamentos()`
 
