@@ -3,7 +3,7 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faCloud, faCoffee, faMoon, faBed, faPills } from '@fortawesome/free-solid-svg-icons';
 import { WiDaySunnyOvercast } from 'react-icons/wi';
 import './tabla.css';
-
+///////////
 function Tabla() {
   const [dosis, setDosis] = useState('');
   const [tiempo, setTiempo] = useState('');
