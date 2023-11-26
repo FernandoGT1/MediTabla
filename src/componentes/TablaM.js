@@ -11,7 +11,7 @@ function Tabla() {
   const [comentarios, setComentarios] = useState('');
 
   const [medicamentos, setMedicamentos] = useState([
-   /////////////////////////
+   //////////////////////////
     {
       tiempo: 'Noon',
       icon: <FontAwesomeIcon icon={faCoffee} />,

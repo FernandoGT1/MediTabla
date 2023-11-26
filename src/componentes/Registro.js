@@ -9,7 +9,7 @@ function Registro() {
 
   const handleSubmit = (event) => {
     event.preventDefault();
-///////////////////////
+////////////////////////
     const username = event.target.username.value;
     const email = event.target.email.value;
     const password = event.target.password.value;

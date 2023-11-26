@@ -4,7 +4,7 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import LogIn from './componentes/LogIn';
 import Registro from './componentes/Registro';
 import TablaM from './componentes/TablaM';
-///////////
+////////////
 function App() {
   return (
     <BrowserRouter>
