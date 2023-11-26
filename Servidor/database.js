@@ -42,7 +42,7 @@ app.get('/obtenerUsuarios',(request, response)=>{
         return response.json({usuarios: resultado});
     })
 })
-
+///////////
 app.get('/obtenerMedicina',(request,response)=>{
     const sql = `SELECT * FROM medicina`
     console.log(sql)
